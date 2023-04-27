@@ -209,6 +209,35 @@ img {
   cursor: pointer;
 }
 
+@media (max-width: 768px) {
+  .roupa-card {
+    width: calc(50% - 2.5rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .roupa-card {
+    width: calc(100% - 2.5rem);
+    margin: 1.25rem 0;
+  }
+
+  .roupa-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .roupa-card p {
+    font-size: 1rem;
+  }
+
+  .roupa-card img {
+    height: 15rem;
+  }
+
+  .roupa-card {
+    height: auto;
+  }
+}
+
 /*-----------------------------Footer-----------------------------*/
 
 .footer {
