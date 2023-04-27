@@ -1,4 +1,3 @@
-
 /*-----------------------------Nav-----------------------------*/
 
 #menu-nav {
@@ -6,7 +5,6 @@
     padding: 45px;
     color: white;
 }
-
 
 #menu-nav nav h1 {
     font-family: 'Dancing Script', cursive;
@@ -16,7 +14,6 @@
     display: flex;
     justify-content: center;
 }
-
 
 #menu-nav nav h1 a {
     text-decoration: none;
@@ -58,11 +55,28 @@
     justify-content: space-between;
 }
 
+@media only screen and (max-width: 768px) {
+  #menu-nav {
+      padding: 20px;
+  }
+
+  #menu-nav nav h1 {
+      font-size: 28px;
+      width: auto;
+  }
+
+  #menu-nav nav ul li a {
+      font-size: 20px;
+      padding-right: 20px;
+  }
+}
+
 /*-----------------------------Home-----------------------------*/
+
 #home {
     max-width: 1800px;
     margin: auto;
-    height: 100vh;
+    height: 130vh;
     background-color: #dddddd;
 }
 
@@ -135,6 +149,25 @@ img {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+  #home {
+    max-width: none;
+    height: auto;
+  }
+
+  #container {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 40px;
+  }
+
+  .box {
+    width: 100%;
+    height: 300px;
+  }
+}
+
+
 /*-----------------------------Roupas/Calçados/Acessórios-----------------------------*/
 
 .roupas-container {
@@ -174,6 +207,36 @@ img {
   box-shadow: 0rem .125rem 1.25rem rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .roupa-card {
+    width: calc(50% - 2.5rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .roupa-card {
+    width: calc(100% - 2.5rem);
+    margin: 1.25rem 0;
+  }
+
+  .roupa-card h3 {
+    font-size: 1.25rem;
+  }
+
+  .roupa-card p {
+    font-size: 1rem;
+  }
+
+  .roupa-card img {
+    height: 15rem;
+  }
+
+  .roupa-card {
+    height: auto;
+  }
+}
+
 
 /*-----------------------------Footer-----------------------------*/
 
