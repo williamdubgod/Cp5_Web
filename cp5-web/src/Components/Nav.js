@@ -8,18 +8,18 @@ export default function Nav() {
         <div id="menu-nav">
             <nav id='navegador'>
                 <h1>
-                    <Link to="/">Sportsware</Link>
+                    <Link to="/">Porco Mania</Link>
                 </h1>
 
                 <ul>
                     <li>
-                        <Link to="/Camisas">Camisas</Link>
+                        <Link to="/roupas">Roupas</Link>
                     </li>
                     <li>
-                        <Link to="/Calcas">Calças</Link>
+                        <Link to="/calcados">Calçados</Link>
                     </li>
                     <li>
-                        <Link to="/Acessorios">Acessórios</Link>
+                        <Link to="/acessorios">Acessórios</Link>
                     </li>
                 </ul>
             </nav>
